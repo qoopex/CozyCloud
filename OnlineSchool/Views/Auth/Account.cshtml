@@ -1,0 +1,40 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Аккаунт - ";
+}
+
+<div class="container">
+    <div class="d-flex">
+        <h2>Персональная информация:</h2>
+    </div>
+    <br />
+    <br />
+    <h5>ФИО: @Model.Fullname</h5>
+    <h5>Почта: @Model.Email</h5>
+    <br />
+    <div>Ваша роль:</div>
+    @if (@Model.RoleId == 1)
+    {
+        <span>Админ</span>
+    }
+    @if (@Model.RoleId == 2)
+    {
+        <span>Учитель</span>
+    }
+    @if (@Model.RoleId == 3)
+    {
+        <span>Куратор</span>
+    }
+    @if (@Model.RoleId == 4)
+    {
+        <span>Ученик</span>
+    }
+    @if (@Model.RoleId == 5)
+    {
+        <span>Без роли</span>
+    }
+    <div class="d-flex">
+        <a asp-area="" asp-controller="Auth" asp-action="Logout" class="btn btn-primary me-1">Выйти из аккаунта</a>
+        @* <a asp-area="" asp-controller="Auth" asp-action="Settings" class="btn btn-secondary ">Settings///</a> *@
+    </div>
+</div>

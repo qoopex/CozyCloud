@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]Уютное облако</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/OnlineSchool.styles.css" asp-append-version="true" />
+</head>
+<style>
+    .brandText{
+        font-family: Arial;
+        color: #AC3B61;
+        font-weight:bolder;
+    }
+
+    .navbar {       
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+    .customText{
+        font-weight:bold;
+        color: #7E6D6D;
+    }
+
+    .navbar-brand img {
+        height: 50px; 
+        width: auto; 
+        max-height: 100%; 
+        margin-right: 10px; 
+    }
+</style>
+<body>
+    <header>
+        <nav id="OnlineSchoolNavbar" class="navbar navbar-expand-lg" style="margin:auto; background-color: #c6dbf5;">
+            <div class="container-fluid">
+                <a class="navbar-brand brandText" asp-area="" asp-controller="School" asp-action="Index"><img src="@Url.Content("~/images/replaced3.png")" alt="Logo"></img>Уютное облако</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav mx-auto">
+                        @if (!User.IsInRole("Student") && !User.IsInRole("Curator") && !User.IsInRole("Teacher") && !User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link customText" href="@Url.Action("Index", "School")#scroll-to-AboutUs">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link customText" href="@Url.Action("Index", "School")#scroll-to-Courses">Курсы</a>
+                            </li>                                                 
+                            <li class="nav-item">
+                                <a class="nav-link customText" asp-area="" asp-controller="School" asp-action="Privacy">Конфиденциальность</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link customText" asp-area="" asp-controller="Admin" asp-action="AdminPanel">Панель админа</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Teacher") || User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link customText" asp-area="" asp-controller="Teacher" asp-action="Journal">Журнал</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Curator") || User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link customText" asp-area="" asp-controller="Curator" asp-action="Homeworks">Домашние задания</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("Student") || User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link customText" asp-area="" asp-controller="Student" asp-action="Courses">Обучение</a>
+                            </li>
+                        }                      
+                    </ul>
+                    <ul class="navbar-nav mr-auto">
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item float-end" >
+                                <div class="d-flex">
+                                    <a class="nav-link customText" asp-area="" asp-controller="Auth" asp-action="Login">Войти</a>
+                                    <a class="nav-link customText" asp-area="" asp-controller="Auth" asp-action="Register">Зарегистрироваться</a>
+                                </div>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item" >
+                                <a class="nav-link customText" asp-area="" asp-controller="Auth" asp-action="Account">@User.Identity.Name</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>     
+    </header>
+    <div>
+        <main role="main" ">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineSchool.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OnlineSchool.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_MainFinal.jpg",
+      "PackagePath": "staticwebassets\\images\\CozyCloud_MainFinal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_img2.jpeg",
+      "PackagePath": "staticwebassets\\images\\CozyCloud_img2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_img3.jpeg",
+      "PackagePath": "staticwebassets\\images\\CozyCloud_img3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_img_good.jpg",
+      "PackagePath": "staticwebassets\\images\\CozyCloud_img_good.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_logo1_smallified.png",
+      "PackagePath": "staticwebassets\\images\\CozyCloud_logo1_smallified.png"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\replaced.png",
+      "PackagePath": "staticwebassets\\images\\replaced.png"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\replaced2.png",
+      "PackagePath": "staticwebassets\\images\\replaced2.png"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\replaced3.png",
+      "PackagePath": "staticwebassets\\images\\replaced3.png"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\231d5db8-dc0d-4513-ab7e-518fd8364fc0_18_10101.xls",
+      "PackagePath": "staticwebassets\\uploads\\231d5db8-dc0d-4513-ab7e-518fd8364fc0_18_10101.xls"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\53408522-23b3-48a5-9f85-17c4b1d14326_22_10103.xls",
+      "PackagePath": "staticwebassets\\uploads\\53408522-23b3-48a5-9f85-17c4b1d14326_22_10103.xls"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\7901d486-a92d-4542-a58e-97f568475c6a_18_10101.xls",
+      "PackagePath": "staticwebassets\\uploads\\7901d486-a92d-4542-a58e-97f568475c6a_18_10101.xls"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\952dd3c8-9494-4f50-acb8-c3a3183a1fcd_22_10103.xls",
+      "PackagePath": "staticwebassets\\uploads\\952dd3c8-9494-4f50-acb8-c3a3183a1fcd_22_10103.xls"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\9a403b1b-cddf-4704-9cb6-9269431c8224_10_10092.doc",
+      "PackagePath": "staticwebassets\\uploads\\9a403b1b-cddf-4704-9cb6-9269431c8224_10_10092.doc"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\9f245fef-4803-4440-8b66-a91c977dfe67_18_10101.xls",
+      "PackagePath": "staticwebassets\\uploads\\9f245fef-4803-4440-8b66-a91c977dfe67_18_10101.xls"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\a9819ffe-8c13-459e-a97a-83ddd4819e79_18_10101.xls",
+      "PackagePath": "staticwebassets\\uploads\\a9819ffe-8c13-459e-a97a-83ddd4819e79_18_10101.xls"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\bed86a07-c1fe-42b6-a347-8360a0d669b1_10_10092.doc",
+      "PackagePath": "staticwebassets\\uploads\\bed86a07-c1fe-42b6-a347-8360a0d669b1_10_10092.doc"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\c8d13b63-6756-4158-a8d0-e68af03260bd_18_10101.xls",
+      "PackagePath": "staticwebassets\\uploads\\c8d13b63-6756-4158-a8d0-e68af03260bd_18_10101.xls"
+    },
+    {
+      "Id": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\edf02291-b91e-40dc-8ed7-60a6f4d8900d_18_10101.xls",
+      "PackagePath": "staticwebassets\\uploads\\edf02291-b91e-40dc-8ed7-60a6f4d8900d_18_10101.xls"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OnlineSchool.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OnlineSchool.props",
+      "PackagePath": "build\\OnlineSchool.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OnlineSchool.props",
+      "PackagePath": "buildMultiTargeting\\OnlineSchool.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OnlineSchool.props",
+      "PackagePath": "buildTransitive\\OnlineSchool.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

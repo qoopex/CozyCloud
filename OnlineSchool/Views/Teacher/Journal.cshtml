@@ -1,0 +1,164 @@
+﻿@using OnlineSchool.ViewModels
+@{
+    ViewData["Title"] = "Журнал - ";
+}
+<style>
+     table th, table td {
+        padding-right: 200px;
+    } 
+
+   .no-container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .no-container .table {
+        margin-left: 0;
+    }
+
+
+
+
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+@model JournalViewModel 
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Айди учебного предмета</th>
+                <th>Название учебного предмета</th>
+                <th>Группы</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var subject in Model.Subjects)
+            {
+                var collapseId = "collapse" + subject.Id;
+                <tr>
+                    <td>@subject.Id</td>
+                    <td>@subject.SubjectName</td>
+                    <td>
+                        <ul>
+                            @foreach (var g in subject.Groups)
+                            {
+                                <li>@g.GroupName</li>
+                            }
+                        </ul>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#@collapseId">
+                            Свернуть/Развернуть
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div id="@collapseId" class="collapse">
+                            <!-- Lesson Creation Panel -->
+                            <div class="card mt-3">
+                                <div class="card-header">Создание урока</div>
+                                <div class="card-body">
+                                    <form asp-action="CreateLesson" enctype="multipart/form-data" asp-controller="Teacher">
+                                        <input type="hidden" value="@subject.Id" name="subjectId" />
+                                        <div class="form-group">
+                                            <label for="topic">Тема урока</label>
+                                            <input type="text" class="form-control" id="topic" asp-for="@Model.Lesson.Topic" placeholder="Введите тему урока">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="startTime">Время начала урока</label>
+                                            <input type="time" class="form-control" asp-for="@Model.Lesson.StartTime" id="startTime">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="streamLink">Ссылка на стрим</label>
+                                            <input type="url" class="form-control" id="streamLink" asp-for="@Model.Lesson.Link" placeholder="Введите ссылку на стрим">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="lessonDate">Дата урока</label>
+                                            <input type="date" class="form-control" asp-for="@Model.Lesson.Date" id="lessonDate">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="homeworkName">Название домашнего задания</label>
+                                            <input type="text" class="form-control" asp-for="@Model.Lesson.Homework.HomeworkName" id="homeworkName">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="homeworkDescription">Описание домашнего задания</label>
+                                            <input type="text" class="form-control" asp-for="@Model.Lesson.Homework.Description" id="homeworkDesc">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="homeworkFile">Дедлайн домашнего задания</label>
+                                            <input type="date" class="form-control" asp-for="@Model.Lesson.Homework.DueDate" id="homeworkDueDate">
+                                        </div>
+                                        <div class="form-group mb-1">
+                                            <label for="homeworkFile">Файл с домашним заданием</label>
+                                            <input type="file" class="form-control" asp-for="@Model.HomeworkFile" name="homeworkFile">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Создать урок</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Lesson Journal -->
+                            <div class="card mt-3">
+                                <div class="card-header">Журнал уроков</div>
+                                <div class="card-body">
+                                    <div class="row" id="lessonCards">
+                                        @foreach (var group in subject.Groups)
+                                        {
+                                            @foreach(var lesson in group.Lessons.Reverse())
+                                            {                  
+                                                <div class="col-md-3">
+                                                    <div class="card mb-3">
+                                                        <div class="card-body">
+                                                            <div style="display:none">@lesson.Id</div>
+                                                            <h5 class="card-title">@lesson.Topic</h5>
+                                                            <a href="@lesson.Link" >Ссылка на стрим/запись</a>
+                                                            <p class="card-text">Дата: @lesson.Date.ToShortDateString()</p>
+                                                            <a id="DetailsModalBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DetailsModal">Настроить</a>
+                                                        </div>
+                                                    </div>
+                                                </div>                                               
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <!-- Lesson Modal -->
+    <div class="modal" id="DetailsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Изменение урока</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form name="LessonDetailsForm" method="post" action="@Url.Action("EditLesson", "Teacher")">
+                        <input type="hidden" name="lessonId" />
+                        <div class="form-group">
+                            <label for="streamLink">Ссылка на стрим/запись</label>
+                            <input type="url" class="form-control" id="streamLink" asp-for="@Model.Lesson.Link" placeholder="Введите новую ссылку на стрим или запись">
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-1">Сохранить изменения</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<script>
+    document.querySelector("#lessonCards").addEventListener("click", () => {
+        if (event.target.id == "DetailsModalBtn") {
+            document.forms.LessonDetailsForm.lessonId.value = event.target.parentElement.children[0].innerText;
+        }
+    });
+</script>

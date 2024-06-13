@@ -1,0 +1,595 @@
+﻿@using OnlineSchool.ViewModels
+
+@{
+    ViewData["Title"] = "Панель администратора - ";
+}
+
+@model AdminPanelViewModel;
+
+<style>
+    table th, table td {
+        padding-right: 200px;
+    }
+
+    .no-container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .no-container .table {
+        margin-left: 0;
+    }
+
+
+    .auto-expand-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .auto-expand-table th, .auto-expand-table td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .auto-expand-table th {
+            background-color: #f2f2f2;
+        }
+
+        .auto-expand-table td {
+            white-space: nowrap;
+        }
+
+        .collapsed {
+            display: none;
+        }
+
+        #allContent{
+            display:flex;
+            flex-direction:column;
+        }
+
+</style>
+
+<div id="allContent" class="container">
+<button class="m-4" id="toggleUserButton">Свернуть таблицу пользователей</button>
+@*---------------User list section---------------*@
+<div id="userContainer">
+    <input type="text" id="searchUserInput" placeholder="Поиск по имени пользователя..." style="width: 75%">
+    <div style="max-height: 400px; overflow-y: auto; " class="no-container">
+        <div style="font-weight:bolder">Список пользователей:</div>
+        <table class="table; auto-expand-table" id="userTable">
+            <thead>
+                <tr>
+                    <th>Айди пользователя</th>
+                    <th>ФИО</th>
+                    <th>Эл. почта</th>
+                    <th>Текущая роль</th>
+                    <th>Обновить роль</th>
+                    <th>Добавить ученика в группу</th>
+                    <th>Удалить пользователя</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyUsers">
+                @foreach (var user in Model.Users)
+                {
+                    <form asp-controller="Admin" asp-action="UpdateRole" method="post">
+                        <input type="hidden" name="userId" value="@user.Id" />
+                    <tr>
+                        <td>@user.Id</td>
+                        <td>@user.Fullname</td>
+                        <td>@user.Email</td>
+                            @if (user.RoleId == 5)
+                            {
+                            <td>Без роли</td>
+                            }
+                            @if (user.RoleId == 4)
+                            {
+                            <td>Ученик</td>
+                            }
+                            @if (user.RoleId == 3)
+                            {
+                            <td>Куратор</td>
+                            }
+                            @if (user.RoleId == 2)
+                            {
+                            <td>Учитель</td>
+                            }
+                            @if (user.RoleId == 1)
+                            {
+                            <td>Администратор</td>
+                            }
+                        <td>
+                            <a id="UserRolesModalBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#UserRolesModal">обновить роль</a>
+                        </td>
+                            @if (user.RoleId == 4)
+                            {
+                            <td>
+                                <a id="UserGroupModalBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#UserGroupModal">Добавить ученика в группу</a>
+                            </td>
+                            }
+                            @if (user.RoleId != 4)
+                            {
+                            <td>Не ученик</td>
+                            }
+                        <td>
+                            <a id="RemoveUserModalBtn" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#RemoveUserModal">Удалить</a>
+                        </td>
+                    </tr>
+
+                    </form>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+@*---------------Modal window for updating user roles section---------------*@
+<div class="modal" id="UserRolesModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Изменить роль</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form name="UserRolesForm" method="post" action="@Url.Action("UpdateUserRole", "Admin")">
+                    <input type="hidden" name="userId" />
+                    <select asp-for="@Model.Role.Name">
+                        <option>Выберите роль</option>
+                        <option value="None">Без роли</option>
+                        <option value="Student">Ученик</option>
+                        <option value="Curator">Куратор</option>
+                        <option value="Teacher">Учитель</option>
+                        <option value="Admin">Админ</option>
+                    </select>
+                    <button type="submit">Обновить роль</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+@*---------------Modal window for adding student to group section---------------*@
+<div class="modal" id="UserGroupModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Добавить ученика в группу</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form name="UserGroupForm" method="post" action="@Url.Action("AddStudentToGroup", "Admin")">
+                    <input type="hidden" name="userId" />
+                    <select name="groupId" id="groupId">
+                        <option>Выберите группу</option>
+                        @if (ViewBag.groups != null)
+                            @foreach (Group group in ViewBag.groups)
+                            {
+                                <option value="@group.Id">@group.GroupName</option>
+                            }
+                    </select>
+                    <button type="submit">Добавить ученика в группу</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+@*---------------Modal window for removing user section---------------*@
+<div class="modal" id="RemoveUserModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Подтвердите действие</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="display: flex; justify-content:end">
+                <form name="RemoveUserForm" action="@Url.Action("RemoveUser", "Admin")" method="post">
+                    <input type="hidden" name="userId" />
+                    <button type="submit" class="btn btn-primary me-3">Удалить</button>
+                </form>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="m-4" id="toggleSubjectButton">Свернуть таблицу учебных предметов</button>
+@*---------------Subject list section---------------*@
+<div id="subjectContainer">
+    <div style="font-weight:bolder; margin-top:45px">Добавление учебного предмета:</div>
+    <form asp-controller="Admin" asp-action="CreateSubject" method="post">
+        <div>
+            <label asp-for="@Model.Subject.SubjectName">Название предмета:</label>
+            <input asp-for="@Model.Subject.SubjectName" />
+            <span asp-validation-for="@Model.Subject.SubjectName"></span>
+
+            <label asp-for="@Model.Subject.SubjectDescription">Описание предмета:</label>
+            <input asp-for="@Model.Subject.SubjectDescription" />
+            <span asp-validation-for="@Model.Subject.SubjectDescription"></span>
+        </div>
+        <button type="submit">Создать</button>
+    </form>
+    <input type="text" class="mt-4" id="searchSubjectInput" placeholder="Поиск по названию учебного предмета..." style="width: 75%">
+    <div style="margin-top:7px; font-weight:bolder;">Список учебных предметов:</div>
+    <div style="max-height: 400px; overflow-y: auto;" class="no-container">
+        <table class="table; auto-expand-table" id="subjectTable">
+            <thead>
+                <tr>
+                    <th>Айди учебного предмета</th>
+                    <th>Название предмета</th>
+                    <th>Описание предмета</th>
+                    <th>Группы</th>
+                    <th>Учитель</th>
+                    <th>Удаление предмета</th>
+                </tr>
+            </thead>
+            <tbody id="tbodySubjects">
+                @foreach (var subject in Model.Subjects)
+                {
+                    <tr>
+                        <td>@subject.Id</td>
+                        <td>@subject.SubjectName</td>
+                        <td>@subject.SubjectDescription</td>
+                        <td>
+                            <ul>
+                                @foreach (var g in subject.Groups)
+                                {
+                                    <form method="post" action="@Url.Action("DeleteGroupFromSubject", "Admin")">
+                                        <input type="hidden" name="subjectId" value="@subject.Id" />
+                                        <input type="hidden" name="groupId" value="@g.Id" />
+                                    <li class="mb-3">@g.GroupName <button type="submit">Удалить</button></li>
+                                    </form>
+                                }
+                            </ul>
+                        </td>
+                        @if (subject.User != null)
+                        {
+                            <form asp-controller="Admin" asp-action="DeleteTeacherFromSubject" method="post">
+                                <input type="hidden" name="subjectId" value="@subject.Id" />
+                                <input type="hidden" name="userId" value="@subject.User.Id" />
+                                <td>@subject.User.Fullname <button type="submit">Удалить учителя</button></td>
+                            </form>
+                        }
+                        @if (subject.User == null)
+                        {
+                            <td>
+                                <a id="AddTeacherModalBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#AddTeacherModal">Добавить учителя</a>
+                            </td>
+                        }
+                        <td>
+                            <a id="RemoveSubjectModalBtn" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#RemoveSubjectModal">Удалить предмет</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@*---------------Modal window for adding teacher to subject section---------------*@
+<div class="modal" id="AddTeacherModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Выберите учителя</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="display: flex; justify-content:start">
+                <form name="AddTeacherForm" method="post" action="@Url.Action("AddTeacherToSubject", "Admin")">
+                    <input type="hidden" name="subjectId" />
+                    <select name="userId" id="userId">
+                        <option>Выберите учителя</option>
+                        @foreach (User user in ViewBag.Teachers)
+                        {
+                            <option value="@user.Id">@user.Fullname</option>
+                        }
+                    </select>
+                    <button type="submit">Добавить учителя</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+@*---------------Modal window for removing subject section---------------*@
+<div class="modal" id="RemoveSubjectModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Подтвердите действие</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="display: flex; justify-content:end">
+                <form name="RemoveSubjectForm" action="@Url.Action("RemoveSubject", "Admin")" method="post">
+                    <input type="hidden" name="subjectId" />
+                    <button type="submit" class="btn btn-primary me-3">Удалить</button>
+                </form>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="m-4" id="toggleGroupButton">Свернуть таблицу групп</button>
+@*---------------Group list section---------------*@
+<div id="groupContainer">
+    <div style="font-weight:bolder; margin-top:45px">Добавление группы:</div>
+    <form asp-controller="Admin" asp-action="CreateGroup" method="post">
+        <div>
+            <label asp-for="@Model.Group.GroupName">Название группы:</label>
+            <input asp-for="@Model.Group.GroupName" />
+            <span asp-validation-for="@Model.Group.GroupName"></span>
+        </div>
+        <button type="submit">Создать</button>
+    </form>
+
+    <input type="text" class="mt-4" id="searchGroupInput" placeholder="Поиск по названию группы..." style="width: 75%">
+    <div style="margin-top:7px; font-weight:bolder;">Список групп:</div>
+    <div style="max-height: 400px; overflow-y: auto;" class="no-container">
+        <table class="table; auto-expand-table" id="groupTable">
+            <thead>
+                <tr>
+                    <th>Айди группы</th>
+                    <th>Название группы</th>
+                    <th>Список учеников</th>
+                    <th>Куратор группы</th>
+                    <th>Предмет</th>
+                    <th>Удалить группу</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyGroups">
+                @foreach (var g in Model.GroupViewModels)
+                {
+                    <tr>
+                        <td>@g.GroupId</td>
+                        <td>@g.GroupName</td>
+                        <td>
+                            <ul>
+                                @foreach (var ug in g.UserGroups)
+                                {
+                                    <form method="post" action="@Url.Action("DeleteStudentFromGroup", "Admin")">
+                                        <input type="hidden" name="userId" value="@ug.UserId" />
+                                        <input type="hidden" name="groupId" value="@g.GroupId" />
+                                    <li class="mb-3">@ug.Fullname <button type="submit">Удалить ученика</button></li>
+                                    </form>
+                                }
+                            </ul>
+                        </td>
+                        @if (g.Curator == null)
+                        {
+                            <td>
+                                <a id="AddCuratorToGroupModalBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#AddCuratorToGroupModal">Добавить куратора</a>
+                            </td>
+                        }
+                        @if (g.Curator != null)
+                        {
+                            <td>
+                                <form asp-controller="Admin" asp-action="DeleteCuratorFromGroup" method="post">
+                                    <input type="hidden" name="groupId" value="@g.GroupId" />
+                                    <input type="hidden" name="userId" value="@g.Curator.Id" />
+                                    <p>@g.Curator.Fullname <button type="submit">Удалить куратора</button></p>
+                                </form>
+                            </td>
+                        }
+                        @if (g.Subject == null)
+                        {
+                            <td>
+                                <a id="AddGroupToSubjectModalBtn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#AddGroupToSubjectModal">Привязать предмет к группе</a>
+                            </td>
+                        }
+                        @if (g.Subject != null)
+                        {
+                            <td>
+                                <form asp-controller="Admin" asp-action="DeleteGroupFromSubject" method="post">
+                                    <input type="hidden" name="groupId" value="@g.GroupId" />
+                                    <input type="hidden" name="subjectId" value="@g.SubjectId" />
+                                    <p>@g.Subject.SubjectName <button type="submit">Удалить предмет</button></p>
+                                </form>
+                            </td>
+                        }
+                        <td>
+                            <a id="RemoveGroupBtn" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#RemoveGroupModal">Удалить группу</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@*---------------Modal window for adding curator to group section---------------*@
+<div class="modal" id="AddCuratorToGroupModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Выберите куратора</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="display: flex; justify-content:start">
+                <form name="AddCuratorToGroupForm" method="post" action="@Url.Action("AddCuratorToGroup", "Admin")">
+                    <input type="hidden" name="groupId" />
+                    <select name="userId" id="userId">
+                        <option>Выберите куратора</option>
+                        @foreach (User user in ViewBag.Curators)
+                        {
+                            <option value="@user.Id">@user.Fullname</option>
+                        }
+                    </select>
+                    <button type="submit">Добавить куратора</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+@*---------------Modal window for adding group to subject section---------------*@
+<div class="modal" id="AddGroupToSubjectModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Выберите предмет для привязки к группе</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+                <div class="modal-body" style="display: flex; justify-content:start">
+                <form name="AddGroupToSubjectForm" method="post" action="@Url.Action("AddGroupToSubject", "Admin")">
+                    <input type="hidden" name="groupId" />
+                    <select name="subjectId" id="subjectId">
+                        <option>Выберите предмет</option>
+                        @if (ViewBag.Subjects != null)
+                        {
+                            @foreach (Subject subject in ViewBag.Subjects)
+                            {
+                                <option value="@subject.Id">@subject.SubjectName</option>
+                            }
+                        }
+                    </select>
+                    <button type="submit">Привязать группу</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+@*---------------Modal window for removing group section---------------*@
+<div class="modal" id="RemoveGroupModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Подтвердите действие</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="display: flex; justify-content:end">
+                <form name="RemoveGroupForm" action="@Url.Action("RemoveGroup", "Admin")" method="post">
+                    <input type="hidden" name="groupId" />
+                    <button type="submit" class="btn btn-primary me-3">Удалить</button>
+                </form>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    document.getElementById('toggleUserButton').addEventListener('click', function () {
+        var table = document.getElementById('userContainer');
+        if (table.classList.contains('collapsed')) {
+            table.classList.remove('collapsed');
+            this.textContent = 'Свернуть таблицу пользователей';
+        } else {
+            table.classList.add('collapsed');
+            this.textContent = 'Развернуть таблицу пользователей';
+        }
+    });
+    document.getElementById('toggleSubjectButton').addEventListener('click', function () {
+        var table = document.getElementById('subjectContainer');
+        if (table.classList.contains('collapsed')) {
+            table.classList.remove('collapsed');
+            this.textContent = 'Свернуть таблицу учебных предметов';
+        } else {
+            table.classList.add('collapsed');
+            this.textContent = 'Развернуть таблицу учебных предметов';
+        }
+    });
+    document.getElementById('toggleGroupButton').addEventListener('click', function () {
+        var table = document.getElementById('groupContainer');
+        if (table.classList.contains('collapsed')) {
+            table.classList.remove('collapsed');
+            this.textContent = 'Свернуть таблицу групп';
+        } else {
+            table.classList.add('collapsed');
+            this.textContent = 'Развернуть таблицу групп';
+        }
+    });
+
+
+
+    document.querySelector("#tbodyUsers").addEventListener("click", () => {
+        if (event.target.id == "UserRolesModalBtn") {
+            document.forms.UserRolesForm.userId.value = event.target.parentElement.parentElement.children[0].innerText;
+        }
+        if (event.target.id == "UserGroupModalBtn") {
+            document.forms.UserGroupForm.userId.value = event.target.parentElement.parentElement.children[0].innerText;
+        }
+        if (event.target.id == "RemoveUserModalBtn") {
+            document.forms.RemoveUserForm.userId.value = event.target.parentElement.parentElement.children[0].innerText;
+
+        }
+    });
+
+
+    document.querySelector("#tbodySubjects").addEventListener("click", () => {
+        if (event.target.id == "AddTeacherModalBtn") {
+            document.forms.AddTeacherForm.subjectId.value = event.target.parentElement.parentElement.children[0].innerText;
+        }
+        if (event.target.id == "RemoveSubjectModalBtn") {
+            document.forms.RemoveSubjectForm.subjectId.value = event.target.parentElement.parentElement.children[0].innerText;
+        }
+    });
+
+
+	document.querySelector("#tbodyGroups").addEventListener("click", () => {
+
+		if (event.target.id == "AddCuratorToGroupModalBtn") {
+			document.forms.AddCuratorToGroupForm.groupId.value = event.target.parentElement.parentElement.children[0].innerText;
+		}
+		if (event.target.id == "AddGroupToSubjectModalBtn") {
+			document.forms.AddGroupToSubjectForm.groupId.value = event.target.parentElement.parentElement.children[0].innerText;
+		}
+		if (event.target.id == "RemoveGroupBtn") {
+			document.forms.RemoveGroupForm.groupId.value = event.target.parentElement.parentElement.children[0].innerText;
+		}
+	});
+
+	document.addEventListener('DOMContentLoaded', function () {//Фильтрация таблиц
+
+		var inputSubject = document.getElementById('searchSubjectInput');
+		inputSubject.addEventListener('input', function () {
+			var filter = inputSubject.value.toLowerCase();
+			filterTable(filter, 'subjectTable')
+		})
+
+		var inputUser = document.getElementById('searchUserInput');
+		inputUser.addEventListener('input', function () {
+			var filter = inputUser.value.toLowerCase();
+			filterTable(filter, 'userTable');
+		});
+
+		var inputGroup = document.getElementById('searchGroupInput');
+		inputGroup.addEventListener('input', function () {
+			var filter = inputGroup.value.toLowerCase();
+			filterTable(filter, 'groupTable');
+		});
+
+		function filterTable(filter, tableId) {
+			var rows = document.querySelectorAll('#' + tableId + ' tbody tr');
+
+			rows.forEach(function (row) {
+				var found = false;
+				row.querySelectorAll('td').forEach(function (cell) {
+					if (cell.textContent.toLowerCase().includes(filter)) {
+						found = true;
+					}
+				});
+				if (found) {
+					row.style.display = '';
+				} else {
+					row.style.display = 'none';
+				}
+			});
+		}
+
+	});
+</script>

@@ -1,0 +1,231 @@
+﻿<style>
+    .Section{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .image-container {
+        width: 100%;
+        height: 400px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    #innerSection_first{
+        position: relative;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        padding: 20px;
+        width: 40vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .text {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+        text-align:center;
+    }
+
+
+    .button {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .button:hover {
+            background-color: #3e8e41;
+            color: #fff; 
+        }
+
+    #scrollspy-AboutUs{
+        transition: scroll 0.5s;
+    }
+
+</style>
+
+<div class="Section" class="image-container;" 
+style="background-image: url('@Url.Content("~/images/CozyCloud_MainFinal.jpg")');
+background-repeat:no-repeat; background-position:center; background-size:cover;">
+    <div id="innerSection_first" class="overlay">
+        <p class="text">Онлайн-курсы для разных сфер деятельности</p>
+        <button class="button" ref="#scroll-to-Courses">Подобрать курс</button>
+    </div>
+</div>
+<div class="Section">
+    sadsdsd
+</div>
+<div data-bs-spy="scroll" data-bs-target="#OnlineSchoolNavbar" data-bs-offset="0" id="scrollspy-AboutUs" tabindex="0">
+    @* e *@
+    <h4 id="scroll-to-AboutUs">Маячок</h4>
+    @* e *@
+</div>
+<div class="Section">
+    sadsdsd
+</div>
+<div data-bs-spy="scroll" data-bs-target="#OnlineSchoolNavbar" data-bs-offset="0" id="scrollspy-Courses" tabindex="0">
+    @* e *@
+    <h4 id="scroll-to-Courses">Маячок2</h4>
+    @* e *@
+</div>
+@* <div class="container">
+    <div class="container-fluid">
+        <div class="row">
+            <h1>Уютное облако</h1>
+        </div>
+    </div>
+    <h2>Наши учителя</h2>
+    <p>Мы гордимся нашими учителями, которые являются профессионалами в своей области. Они помогут вам достичь ваших целей и раскрыть ваш потенциал.</p>
+    <h2>Преимущества школы</h2>
+    <p>Выбрав нашу школу, вы получаете качественное образование, персональное внимание и возможность развиваться в комфортной обстановке.</p>
+    <h2>Наш подход</h2>
+    <p>Мы стремимся к тому, чтобы каждый студент чувствовал себя уверенно и мог достичь успеха в своих учебных и профессиональных целях.</p>
+    <p>Начните свой путь обучения прямо сейчас! <a href="#" class="btn">Узнать больше</a></p>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Выберите свой путь обучения</h2>
+            <p>Начните свой путь обучения прямо сейчас! Нажмите на одну из кнопок ниже, чтобы узнать больше о наших курсах.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md-3">
+            <div class="course" >
+                Языки
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="course">
+                IT-технологии
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="course">
+                Дизайн
+            </div>
+        </div>
+        <div class="col-6 col-md-3">
+            <div class="course">
+                Музыка
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Наши преимущества</h2>
+            <p>Мы гарантируем качественное обучение и поддержку на всех этапах вашего обучения. Наши учителя - это профессионалы своего дела, готовые поделиться своими знаниями с вами.</p>
+        </div>
+    </div>
+</div> *@
+
+
+<style>
+    .cloud{
+        margin: auto;
+        width: 60%;
+        height: 25%
+    }
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        color: #8F7A55;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 3em;
+        font-weight: bold;
+        color: #6C5845;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 2em;
+        color: #6C5845;
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .highlight {
+        font-size: 1.5em;
+        color: #FFC0CB;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #6C5845;
+        color: #FFFFFF;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .btn:hover {
+            background-color: #8F7A66;
+        }
+
+
+    .course {
+        background-color: #FFC0CB;
+        color: #8F7A66;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .course:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+
+
+</script>
+

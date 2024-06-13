@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Мои курсы - ";
+}
+@model IEnumerable<Subject>
+
+
+<div class="container">
+    @foreach(var course in Model)
+    {
+        <div>
+            @course.SubjectName
+            @course.SubjectDescription<p>-></p>
+            @foreach(var g in course.Groups)
+            {
+                @g.GroupName<p>-></p>
+                @foreach(var l in g.Lessons)
+                {
+                    @l.Topic
+                }
+            }
+        </div>
+    }
+</div>
+
+
+
+

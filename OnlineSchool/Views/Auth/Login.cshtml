@@ -1,0 +1,112 @@
+﻿@using OnlineSchool.ViewModels
+@{
+    Layout = null;
+}
+@model LoginViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уютное облако - Вход</title>
+    <style>
+        .btn-custom {
+            background-color: #8F7A66;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+            .btn-custom:hover {
+                background-color: #6C5845;
+            }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F6EFE6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #email,
+        #password,
+        #submit {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        #submit {
+            background-color: #8F7A66;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            #submit:hover {
+                background-color: #6C5845;
+            }
+
+        .register-link {
+            margin-top: 20px;
+            color: #8F7A66;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .return-link {
+            color: #8F7A66;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .InvalidField{
+            color:red;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 style="color:#AC3B61">Уютное облако</h1>
+        <h2>Вход</h2>
+        <form asp-action="Login" asp-controller="Auth" method="post">
+            @Html.AntiForgeryToken()
+            <div class="form-group">
+                <input asp-for="Email" id="email" class="form-control" placeholder="Электронная почта" />
+                <span asp-validation-for="Email" class="InvalidField"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Password" id="password" class="form-control" placeholder="Пароль" />
+                <span asp-validation-for="Password" class="InvalidField" ></span>
+            </div>
+            <button type="submit" id="submit" class="btn btn-primary">Войти</button>
+        </form>
+        <a href="Register" class="register-link">Нет аккаунта? Зарегистрируйтесь!</a>
+        <div style="margin-top:15px;">
+            <a href="/School/Index" class="return-link">Вернуться на сайт</a>
+        </div>
+    </div>
+</body>
+</html>

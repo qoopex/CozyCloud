@@ -1,0 +1,310 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|c:\\users\\britov\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\onlineschool\\views\\school\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:views\\school\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\models\\homeworksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:models\\homeworksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\views\\curator\\homeworks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:views\\curator\\homeworks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\views\\teacher\\journal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:views\\teacher\\journal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\views\\student\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:views\\student\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\controllers\\curatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:controllers\\curatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\data\\onlineschooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:data\\onlineschooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\models\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:models\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\viewmodels\\studentcoursesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:viewmodels\\studentcoursesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\viewmodels\\journalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:viewmodels\\journalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\viewmodels\\homeworkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:viewmodels\\homeworkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF78E2C-6F23-459A-94D7-9C7D1C071E30}|OnlineSchool.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T16:38:22.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\School\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\School\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\School\\Index.cshtml",
+              "RelativeToolTip": "Views\\School\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T16:36:56.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeworkSubmission.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\HomeworkSubmission.cs",
+              "RelativeDocumentMoniker": "Models\\HomeworkSubmission.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\HomeworkSubmission.cs",
+              "RelativeToolTip": "Models\\HomeworkSubmission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:13:19.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentCoursesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\ViewModels\\StudentCoursesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\StudentCoursesViewModel.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\ViewModels\\StudentCoursesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\StudentCoursesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:21:58.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Courses.cshtml",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\Student\\Courses.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Courses.cshtml",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\Student\\Courses.cshtml",
+              "RelativeToolTip": "Views\\Student\\Courses.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T08:21:43.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:59:50.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Homeworks.cshtml",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\Curator\\Homeworks.cshtml",
+              "RelativeDocumentMoniker": "Views\\Curator\\Homeworks.cshtml",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\Curator\\Homeworks.cshtml",
+              "RelativeToolTip": "Views\\Curator\\Homeworks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T15:40:03.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CuratorController.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Controllers\\CuratorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CuratorController.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Controllers\\CuratorController.cs",
+              "RelativeToolTip": "Controllers\\CuratorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:40:01.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "Models\\Group.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\Group.cs",
+              "RelativeToolTip": "Models\\Group.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:25:23.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "Models\\Lesson.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\Lesson.cs",
+              "RelativeToolTip": "Models\\Lesson.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:19:25.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeworkViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\ViewModels\\HomeworkViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HomeworkViewModel.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\ViewModels\\HomeworkViewModel.cs",
+              "RelativeToolTip": "ViewModels\\HomeworkViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:58:25.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "Controllers\\TeacherController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwDwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:11:58.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Journal.cshtml",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\Teacher\\Journal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\Journal.cshtml",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Views\\Teacher\\Journal.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\Journal.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwBsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T21:03:20.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\Subject.cs",
+              "RelativeToolTip": "Models\\Subject.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:35:18.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JournalViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\ViewModels\\JournalViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\JournalViewModel.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\ViewModels\\JournalViewModel.cs",
+              "RelativeToolTip": "ViewModels\\JournalViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:07:56.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Homework.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\Homework.cs",
+              "RelativeDocumentMoniker": "Models\\Homework.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Models\\Homework.cs",
+              "RelativeToolTip": "Models\\Homework.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:21:10.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T12:52:56.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OnlineSchoolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Data\\OnlineSchoolDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\OnlineSchoolDbContext.cs",
+              "ToolTip": "C:\\Users\\Britov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OnlineSchool\\Data\\OnlineSchoolDbContext.cs",
+              "RelativeToolTip": "Data\\OnlineSchoolDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA8wE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T20:34:37.78Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

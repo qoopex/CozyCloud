@@ -1,0 +1,26 @@
+﻿@using OnlineSchool.ViewModels
+@{
+    ViewData["Title"] = "Домашние задания - ";
+}
+@model HomeworkViewModel
+<div class="container">
+    <h1>Курирование группы @Model.Group.GroupName</h1>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Айди ученика</th>
+                <th>ФИО ученика</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ug in Model.Group.UserGroups)
+            {
+                <tr>
+                    <td>@ug.User.Id</td>
+                    <td>@ug.User.Fullname</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

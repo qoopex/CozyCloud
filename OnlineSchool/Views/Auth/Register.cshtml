@@ -1,0 +1,117 @@
+﻿@using OnlineSchool.ViewModels
+@{
+    Layout = null;
+}
+@model RegistrationViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уютное облако - Регистрация</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .btn-custom {
+            background-color: #8F7A66;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+            .btn-custom:hover {
+                background-color: #6C5845;
+            }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F6EFE6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .textFields{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        #submit {
+            background-color: #8F7A66;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #submit {
+                background-color: #6C5845;
+            }
+
+        .login-link {
+            margin-top: 20px;
+            color: #8F7A66;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .return-link {
+            color: #8F7A66;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .InvalidField {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: #AC3B61;">Уютное облако</h1>
+        <h2>Регистрация</h2>
+        <form asp-action="Register" asp-controller="Auth" method="post">
+            @Html.AntiForgeryToken()
+            <div>
+                <label asp-for="Fullname" >Фамилия Имя Отчество: </label>
+                <input asp-for="Fullname" class="textFields" />
+                <span asp-validation-for="Fullname" class="InvalidField"></span>
+            </div>
+            <div style="margin-top:5px">
+                <label asp-for="Email" >Электронная почта: </label>
+                <input asp-for="Email" class="textFields" />
+                <span asp-validation-for="Email" class="InvalidField"></span>
+            </div>
+            <div style="margin-top:5px">
+                <label asp-for="Password" >Пароль: </label>
+                <input asp-for="Password" class="textFields" />
+                <span asp-validation-for="Password" class="InvalidField"></span>
+            </div>
+            <button type="submit" class="btn-custom">Зарегистрироваться</button>
+        </form>
+        <a href="Login" class="login-link">Уже есть аккаунт? Войдите!</a>
+        <div style="margin-top:15px;">
+            <a href="/School/Index" class="return-link">Вернуться на сайт</a>
+       </div>
+    </div>
+</body>
+</html>
