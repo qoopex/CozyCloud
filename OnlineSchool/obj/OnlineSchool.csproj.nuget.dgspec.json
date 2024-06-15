@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\OnlineSchool.csproj": {}
+    "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\OnlineSchool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\OnlineSchool.csproj": {
+    "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\OnlineSchool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\OnlineSchool.csproj",
+        "projectUniqueName": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\OnlineSchool.csproj",
         "projectName": "OnlineSchool",
-        "projectPath": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\OnlineSchool.csproj",
+        "projectPath": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\OnlineSchool.csproj",
         "packagesPath": "C:\\Users\\Britov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\obj\\",
+        "outputPath": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

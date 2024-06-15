@@ -145,17 +145,17 @@ namespace OnlineSchool.Migrations
                 name: "Homeworks",
                 columns: table => new
                 {
-                    HomeworkId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     HomeworkName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    HomeworkDescription = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     DueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     FilePath = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LessonId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Homeworks", x => x.HomeworkId);
+                    table.PrimaryKey("PK_Homeworks", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Homeworks_Lessons_LessonId",
                         column: x => x.LessonId,
@@ -167,22 +167,22 @@ namespace OnlineSchool.Migrations
                 name: "HomeworkSubmissions",
                 columns: table => new
                 {
-                    SubmissionId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     HomeworkId = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false),
-                    File = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FilePath = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     SubmissionDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CuratorComment = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_HomeworkSubmissions", x => x.SubmissionId);
+                    table.PrimaryKey("PK_HomeworkSubmissions", x => x.Id);
                     table.ForeignKey(
                         name: "FK_HomeworkSubmissions_Homeworks_HomeworkId",
                         column: x => x.HomeworkId,
                         principalTable: "Homeworks",
-                        principalColumn: "HomeworkId");
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_HomeworkSubmissions_Users_UserId",
                         column: x => x.UserId,

@@ -90,7 +90,7 @@ namespace OnlineSchool.Controllers
                     var newHomework = new Homework
                     {
                         HomeworkName = lesson.Homework.HomeworkName,
-                        Description = lesson.Homework.Description,
+                        HomeworkDescription = lesson.Homework.HomeworkDescription,
                         DueDate = lesson.Homework.DueDate,
                         FilePath = lesson.Homework.FilePath,
                         Lesson = newLesson

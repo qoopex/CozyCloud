@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZYIW5mnxqSzOQeDJI8ZCLLRKp6Mb6VTpIR8GkLWOlQnNEhQ5aN2hy0/Dhzm+v68IS5+fi1Q8Uon/5PivYDe+yg==",
+  "dgSpecHash": "M1I5JzGbHZonqceR9ckF+SRKS7q7bff3IN8Ez259P81UN9NMoc0QDP8LJY59mvHjETjQRRvq/FR/1Vzmbc4xIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\OnlineSchool.csproj",
+  "projectFilePath": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\OnlineSchool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Britov\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Britov\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

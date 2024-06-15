@@ -12,7 +12,7 @@ using OnlineSchool.Data;
 namespace OnlineSchool.Migrations
 {
     [DbContext(typeof(OnlineSchoolDbContext))]
-    [Migration("20240611162955_OnlineSchoolMigration")]
+    [Migration("20240615150044_OnlineSchoolMigration")]
     partial class OnlineSchoolMigration
     {
         /// <inheritdoc />
@@ -57,16 +57,11 @@ namespace OnlineSchool.Migrations
 
             modelBuilder.Entity("OnlineSchool.Models.Homework", b =>
                 {
-                    b.Property<int>("HomeworkId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HomeworkId"));
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
@@ -74,6 +69,11 @@ namespace OnlineSchool.Migrations
                     b.Property<string>("FilePath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("HomeworkDescription")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("HomeworkName")
                         .IsRequired()
@@ -83,7 +83,7 @@ namespace OnlineSchool.Migrations
                     b.Property<int>("LessonId")
                         .HasColumnType("int");
 
-                    b.HasKey("HomeworkId");
+                    b.HasKey("Id");
 
                     b.HasIndex("LessonId")
                         .IsUnique();
@@ -93,17 +93,17 @@ namespace OnlineSchool.Migrations
 
             modelBuilder.Entity("OnlineSchool.Models.HomeworkSubmission", b =>
                 {
-                    b.Property<int>("SubmissionId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SubmissionId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CuratorComment")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("File")
+                    b.Property<string>("FilePath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -116,7 +116,7 @@ namespace OnlineSchool.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.HasKey("SubmissionId");
+                    b.HasKey("Id");
 
                     b.HasIndex("HomeworkId");
 

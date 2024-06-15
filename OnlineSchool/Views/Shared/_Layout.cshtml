@@ -6,8 +6,7 @@
     <title>@ViewData["Title"]Уютное облако</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/OnlineSchool.styles.css" asp-append-version="true" />
-</head>
+    <link rel="stylesheet" href="~/OnlineSchool.styles.css" asp-append-version="true" /></head>
 <style>
     .brandText{
         font-family: Arial;
@@ -49,9 +48,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link customText" href="@Url.Action("Index", "School")#scroll-to-Courses">Курсы</a>
-                            </li>                                                 
+                            </li>
                             <li class="nav-item">
-                                <a class="nav-link customText" asp-area="" asp-controller="School" asp-action="Privacy">Конфиденциальность</a>
+                                <a class="nav-link customText" href="@Url.Action("Index", "School")#scroll-to-FAQ">FAQ</a>
                             </li>
                         }
                         @if (User.IsInRole("Admin"))
@@ -101,9 +100,12 @@
         </nav>     
     </header>
     <div>
-        <main role="main" ">
+        <main role="main">
             @RenderBody()
         </main>
+    </div>
+    <div class="footer" style="background-color: #c6dbf5;">
+        <a class="navbar-brand brandText" asp-area="" asp-controller="School" asp-action="Index"><img src="@Url.Content("~/images/replaced3.png")" alt="Logo"></img>Уютное облако</a>
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

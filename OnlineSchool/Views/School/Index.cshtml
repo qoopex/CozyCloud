@@ -1,231 +1,565 @@
 ﻿<style>
-    .Section{
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-    }
 
-
-    .image-container {
-        width: 100%;
-        height: 400px; 
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-    }
-
-    #innerSection_first{
+    .hero {
+        background: url('@Url.Content("~/images/CozyCloud_MainFinal.jpg")') no-repeat center center/cover; 
+        height: 95vh;
         position: relative;
-        top: 50%;
-        right: 20px;
-        transform: translateY(-50%);
-        background-color: rgba(255, 255, 255, 0.5);
-        border-radius: 10px;
-        padding: 20px;
-        width: 40vw;
-        height: 50vh;
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
         display: flex;
-        flex-direction: column;
-    }
-
-
-    .text {
-        font-size: 36px;
-        color: #333;
-        margin-bottom: 20px;
-        text-align:center;
-    }
-
-
-    .button {
-        background-color: #4CAF50;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        font-size: 18px;
-        cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-        .button:hover {
-            background-color: #3e8e41;
-            color: #fff; 
-        }
-
-    #scrollspy-AboutUs{
-        transition: scroll 0.5s;
-    }
-
-</style>
-
-<div class="Section" class="image-container;" 
-style="background-image: url('@Url.Content("~/images/CozyCloud_MainFinal.jpg")');
-background-repeat:no-repeat; background-position:center; background-size:cover;">
-    <div id="innerSection_first" class="overlay">
-        <p class="text">Онлайн-курсы для разных сфер деятельности</p>
-        <button class="button" ref="#scroll-to-Courses">Подобрать курс</button>
-    </div>
-</div>
-<div class="Section">
-    sadsdsd
-</div>
-<div data-bs-spy="scroll" data-bs-target="#OnlineSchoolNavbar" data-bs-offset="0" id="scrollspy-AboutUs" tabindex="0">
-    @* e *@
-    <h4 id="scroll-to-AboutUs">Маячок</h4>
-    @* e *@
-</div>
-<div class="Section">
-    sadsdsd
-</div>
-<div data-bs-spy="scroll" data-bs-target="#OnlineSchoolNavbar" data-bs-offset="0" id="scrollspy-Courses" tabindex="0">
-    @* e *@
-    <h4 id="scroll-to-Courses">Маячок2</h4>
-    @* e *@
-</div>
-@* <div class="container">
-    <div class="container-fluid">
-        <div class="row">
-            <h1>Уютное облако</h1>
-        </div>
-    </div>
-    <h2>Наши учителя</h2>
-    <p>Мы гордимся нашими учителями, которые являются профессионалами в своей области. Они помогут вам достичь ваших целей и раскрыть ваш потенциал.</p>
-    <h2>Преимущества школы</h2>
-    <p>Выбрав нашу школу, вы получаете качественное образование, персональное внимание и возможность развиваться в комфортной обстановке.</p>
-    <h2>Наш подход</h2>
-    <p>Мы стремимся к тому, чтобы каждый студент чувствовал себя уверенно и мог достичь успеха в своих учебных и профессиональных целях.</p>
-    <p>Начните свой путь обучения прямо сейчас! <a href="#" class="btn">Узнать больше</a></p>
-</div>
-
-
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h2>Выберите свой путь обучения</h2>
-            <p>Начните свой путь обучения прямо сейчас! Нажмите на одну из кнопок ниже, чтобы узнать больше о наших курсах.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6 col-md-3">
-            <div class="course" >
-                Языки
-            </div>
-        </div>
-        <div class="col-6 col-md-3">
-            <div class="course">
-                IT-технологии
-            </div>
-        </div>
-        <div class="col-6 col-md-3">
-            <div class="course">
-                Дизайн
-            </div>
-        </div>
-        <div class="col-6 col-md-3">
-            <div class="course">
-                Музыка
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h2>Наши преимущества</h2>
-            <p>Мы гарантируем качественное обучение и поддержку на всех этапах вашего обучения. Наши учителя - это профессионалы своего дела, готовые поделиться своими знаниями с вами.</p>
-        </div>
-    </div>
-</div> *@
-
-
-<style>
-    .cloud{
-        margin: auto;
-        width: 60%;
-        height: 25%
-    }
-
-
-
-    body {
-        font-family: Arial, sans-serif;
-        color: #8F7A55;
-        margin: 0;
-        padding: 0;
+        justify-content: center;
+        align-items: center;
     }
 
     .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
+        height: 50%;
+        display: flex;
+        gap: 100px;
     }
 
-    h1 {
-        font-size: 3em;
-        font-weight: bold;
-        color: #6C5845;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 2em;
-        color: #6C5845;
-        margin-top: 40px;
-    }
-
-    p {
-        font-size: 1.2em;
-        line-height: 1.5em;
-        margin-bottom: 20px;
-    }
-
-    .highlight {
-        font-size: 1.5em;
-        color: #FFC0CB;
-    }
-
-    .btn {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #6C5845;
-        color: #FFFFFF;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: background-color 0.3s;
-    }
-
-        .btn:hover {
-            background-color: #8F7A66;
-        }
-
-
-    .course {
-        background-color: #FFC0CB;
-        color: #8F7A66;
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
+    .half-window {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 30px;
         border-radius: 10px;
-        cursor: pointer;
-        transition: all 0.3s ease;
+        width: 60%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-        .course:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .half-window h2 {
+            margin-top: 0;
+            font-size: 24px;
         }
+
+        .half-window form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .half-window form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            .half-window form button:hover {
+                background-color: #45a049;
+            }
+
+        .half-window p, .half-window ul {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .half-window .course-btn {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+            .half-window .course-btn:hover {
+                background-color: #007B9E;
+            }
+
+        .half-window a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+            .half-window a:hover {
+                text-decoration: underline;
+            }
+
+    .about-section {
+        height: 105vh;
+        background-color: white;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+        .about-section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+    .cards-container {
+        margin-top:10%;
+        height:50%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .card {
+        background-color: #f8f9fa; 
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 23%;
+        min-width: 250px;
+        text-align: center;
+        color: #333;
+    }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .card:nth-child(1) {
+            background-color: #FFE5EC; 
+        }
+
+        .card:nth-child(2) {
+            background-color: #E5F4FF; 
+        }
+
+        .card:nth-child(3) {
+            background-color: #FFF4E5; 
+        }
+
+        .card:nth-child(4) {
+            background-color: #E5FFEB; 
+        }
+
+    .teachers-section{
+        background-color: #e5ddf2;
+        height:100vh;
+        margin-top: 45px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    #carousel-teacher-Indicators{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        width:100%;
+        height:100%;
+    }
+
+    .teacher-card{
+        flex: 0 0 20%;
+        max-width: 50%;
+        height:60vh;
+        margin: 15px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+        background-color: #fff;
+    }
+
+
+    .teacher-card-head {
+        width: 100%; 
+        height: 70%;
+        overflow: hidden; 
+    }
+
+        .teacher-card-head img {
+            width: 100%;
+            height: auto; 
+            object-fit: cover;           
+        }
+
+    .teacher-card-body{
+        border-top: black 1px solid;
+        padding-top:5%;
+        height:30%;
+        font-weight:500;
+        font-size:large;
+    }
+
+        .teacher-card-body h4{
+            margin-bottom:10%;
+        }
+
+    .carousel-control-prev {
+        filter: invert(100%);
+    }
+
+    .carousel-control-next {
+        filter: invert(100%);
+    }
+
+    .faq-section {
+        background-color: #d2eafc;
+        height: 100vh;
+        margin-top:15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .questionCard{
+        border: 4px solid blue;
+        border-radius:10px;
+        width:50%;
+        height:15%;
+        margin:2%;
+        font-weight:500;
+        font-size:medium;
+    }
+
+    .question{
+        margin-left:1.5%;
+        margin-top:1.5%;
+    }
+
+    .answer{
+        margin-left: 1.5%;
+        margin-top: 1.5%;
+    }
+
+    .question-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        height:100%;
+        width:100%;
+
+    }
+    .courses-section {
+        height: 110vh;
+        padding: 50px 0;   
+    }
+
+    .courses-container{
+        display:flex;
+        height:100%;
+        text-align:center;
+        flex-direction:column;
+
+    }
+    .section-title {
+        font-size: 32px;
+    }
+
+    .course-card {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin:auto;
+        height: 100%;
+        width:60%;
+
+    .btn-primary {
+        background-color: #6c757d; 
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+        .btn-primary:hover {
+            background-color: #495057; 
+        }
+
+
 </style>
 
+<section class="hero">
+    <div class="overlay">
+        <div class="container">
+            <div class="half-window">
+                <h2 class="mb-5">Обратная связь</h2>
+                <form asp-action="Contact" method="post">
+                    <label>Ваше имя:</label>
+                    <input type="text" name="name" required>
+                    <label>Ваша почта:</label>
+                    <input type="email" name="email" required>
+                    <p>Отправляя данные, вы соглашаетесь с <a href="#">обработкой данных</a>.</p>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="half-window">
+                <h2 class="mb-5"><img src="@Url.Content("~/images/replaced3.png")" alt="Logo" style="width:10%"></img>Уютное Облако</h2>
+                <p>Онлайн школа "Уютное Облако" предлагает курсы по следующим направлениям:</p>
+                <ul>
+                    <li>Программирование</li>
+                    <li>Дизайн</li>
+                    <li>Музыка</li>
+                    <li>Маркетинг</li>
+                </ul>
+                <button class="course-btn" id="scrollToCourses">Подобрать курс</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about-section" data-bs-spy="scroll" data-bs-target="#OnlineSchoolNavbar" data-bs-offset="0" id="scrollspy-AboutUs" tabindex="0">
+    <h2 id="scroll-to-AboutUs">О нас</h2>
+    <div class="cards-container">
+        <div class="card">
+            <ul style="font-size:x-large; font-weight:500;">
+                <li>
+                    10 интересных онлайн-вебинаров в месяц длительностью 1.5 часа
+                </li>
+                <li>
+                    Нескучное уникальное домашнее задание к каждому вебинару
+                </li>
+                <li>
+                    План-конспект ко всем урокам
+                </li>
+                <li>
+                    При необходимости вы можете пересмотреть запись вебинара в любое удобное время
+                </li>
+            </ul>
+        </div>
+        <div class="card">
+            <ul style="font-size:x-large; font-weight:500;">
+                <li>
+                    Вся необходимая информация в одном месте
+                </li>
+                <li>
+                    Занятия проходят в онлайн-режиме
+                </li>
+                <li>
+                    Учиться можно с любого удобного вам устройства
+                </li>
+            </ul>
+        </div>
+        <div class="card">
+            <ul style="font-size:x-large; font-weight:500;">
+                <li>
+                    Наши учителя влюбляют в учебу
+                </li>
+                <li>
+                    Занимаются преподаванием более 5 лет и выпустили около 3.000 успешных специалистов
+                </li>
+                <li>
+                    Каждый из них ответственно относится к своему делу
+                </li>
+            </ul>
+        </div>
+        <div class="card">
+            <ul style="font-size:x-large; font-weight:500;">
+                <li>
+                    Позитивные и отзывчивые кураторы на связи в любое время суток
+                </li>
+                <li>
+                    Ответят на любой вопрос, персонально разберут с учеником даже самое сложное задание, а самое главное - объяснят принцип его решения
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="teachers-section">
+    <h2>Наши преподаватели</h2>
+    <div id="carousel-teacher-Indicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-teacher-Indicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-teacher-Indicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row" style="gap:5%; display:flex; justify-content:center">
+                    <div class="teacher-card" style="width: 18rem;">
+                        <div class="teacher-card-head">
+                            <img src="/images/teachers/teacher1_.jpg" style="margin-top: -45px;" />
+                        </div>
+                        <div class="teacher-card-body">
+                            <h3>Катаева Ольга</h3>
+                            <p class="card-text">Преподаватель по дизайну</p>
+                        </div>
+                    </div>
+                    <div class="teacher-card" style="width: 18rem;">
+                        <div class="teacher-card-head">
+                            <img src="/images/teachers/teacher2.jpg" style="margin-top: -35px;" />
+                        </div>
+                        <div class="teacher-card-body">
+                            <h3>Ерохин Алексей</h3>
+                            <p class="card-text">Преподаватель по программированию</p>
+                        </div>
+                    </div>
+                    <div class="teacher-card" style="width: 18rem;">
+                        <div class="teacher-card-head">
+                            <img src="/images/teachers/teacher3_.jpg" style="margin-top: -10px;" />
+                        </div>
+                        <div class="teacher-card-body">
+                            <h3>Власова Екатерина</h3>
+                            <p class="card-text">Преподаватель по дизайну</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row" style="gap:5%; display:flex; justify-content:center">
+                    <div class="teacher-card" style="width: 18rem;">
+                        <div class="teacher-card-head">
+                            <img src="/images/teachers/teacher4_.jpg" style="margin-top: -15px;" />
+                        </div>
+                        <div class="teacher-card-body">
+                            <h3>Менухин Павел</h3>
+                            <p class="card-text">Преподаватель по маркетингу</p>
+                        </div>
+                    </div>
+                    <div class="teacher-card" style="width: 18rem;">
+                        <div class="teacher-card-head">
+                            <img src="/images/teachers/teacher5.jpg" style="margin-top: -25px;" />
+                        </div>
+                        <div class="teacher-card-body">
+                            <h3>Полякова Анастасия</h3>
+                            <p class="card-text">Преподаватель по программированию</p>
+                        </div>
+                    </div>
+                    <div class="teacher-card" style="width: 18rem;">
+                        <div class="teacher-card-head">
+                            <img src="/images/teachers/teacher6_.jpg" style="margin-top: -20px;" />
+                        </div>
+                        <div class="teacher-card-body">
+                            <h3>Ушаков Лев</h3>
+                            <p class="card-text">Преподаватель по музыке</p>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-teacher-Indicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-teacher-Indicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+</section>
+<section class="courses-section" data-bs-spy="scroll" data-bs-target="#OnlineSchoolNavbar" data-bs-offset="0" id="scrollspy-Courses" tabindex="0">
+    <div class="courses-container">
+        <h2 id="scroll-to-Courses" class="section-title" style="margin-bottom:2%">Наши курсы</h2>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#FFD1DC">
+                    <h3>Битмейкинг</h3>
+                    <p>Битмейкер создаёт музыкальную основу трека: структуру, ритм, гармонию. Часто он же сводит вокал артиста с битом, настраивает громкость и чистоту звучания.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#B0E0E6">
+                    <h3>Программирование на Python</h3>
+                    <p>На Python создают веб-приложения и нейросети, проводят научные вычисления и автоматизируют процессы. Вы научитесь программировать на востребованном языке с нуля.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#90EE90">
+                    <h3>Веб-дизайн</h3>
+                    <p> Будете создавать дизайн сайтов и приложений. Научим делать цифровые продукты  современными, красивыми, удобными и зарабатывать на этом хорошие деньги</p>
+                </div>
+            </div>          
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#FFFFE0">
+                    <h3>UX-дизайн</h3>
+                    <p>Этот курс для вас, если вы знакомы с Figma и теперь хотите лучше понимать аудиторию, чтобы проектировать сайты и приложения, которые точно понравятся людям и будут приносить пользу бизнесу.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#D3D3D3">
+                    <h3>Введение в Data science</h3>
+                    <p>Освойте Data Science с нуля. Вы попробуете силы в аналитике данных, машинном обучении и подробно изучите направление, которое нравится вам больше. Отточите навыки на реальных проектах и станете востребованным специалистом.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#FFDAB9">
+                    <h3>Сведение и мастеринг</h3>
+                    <p>Познакомитесь со стандартами сведения, сможете делать звук атмосферным и чистым. Поймёте, как выстраивать планы в музыкальном произведении, и начнёте зарабатывать на любимом деле.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#E6E6FA">
+                    <h3>Программирование на C++</h3>
+                    <p>Программисты на C++ создают сложные программы и сервисы. Они разрабатывают высоконагруженные сетевые приложения, игры, графические движки, компоненты для операционных систем и железа. </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#D2B48C">
+                    <h3>Основы Photoshop</h3>
+                    <p>
+                        Вы освоите самый популярный графический редактор.
+                        Научитесь профессионально работать с графикой, создавать коллажи и анимацию и сможете начать карьеру в дизайне.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="course-card" style="background-color:#ADD8E6">
+                    <h3>Контент-Маркетинг</h3>
+                    <p>Лидеры индустрии научат вас разрабатывать креативные контент-стратегии и запускать нестандартные рекламные кампании, которые точно принесут результат.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq-section" data-bs-spy="scroll" data-bs-target="#OnlineSchoolNavbar" data-bs-offset="0" id="scrollspy-FAQ" tabindex="0">
+    <h2 class="faq-title" id="scroll-to-FAQ">FAQ</h2>
+    <div class="question-container">
+        <div class="questionCard">
+            <div class="question">
+                1. Вопрос: Что нужно для занятий?
+            </div>
+            <div class="answer">
+                Ответ: Для занятий будет достаточно ноутбука и доступа в интернет. Никаких дополнительных материалов покупать не придется, так как все уже включено в программу
+            </div>
+        </div>
+        <div class="questionCard">
+            <div class="question">
+                2. Вопрос: Что делать, если у меня возникнут вопросы?
+            </div>
+            <div class="answer">
+                Ответ: Кураторы всегда на связи. Ты оперативно получишь ответ на любой вопрос по материалу или формату домашнему заданию.
+            </div>
+        </div>
+        <div class="questionCard">
+            <div class="question">
+                3. Вопрос: Можно общаться с преподавателем вебинара?
+            </div>
+            <div class="answer">
+                Ответ: Во время вебинаров можно задавать вопросы в чате — на них сразу ответят модераторы. А самые актуальные вопросы преподаватели разберут в прямом эфире.
+            </div>
+        </div>
+        <div class="questionCard">
+            <div class="question">
+                4. Вопрос: Какие преимущества онлайн-подготовки?
+            </div>
+            <div class="answer">
+                Ответ: Главный плюс онлайн-курса - это экономия времени. Вебинары сохраняются в записи, а для занятий не нужно никуда ехать.
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script>
     $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip();
+        $("#scrollToCourses").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#scrollspy-Courses").offset().top
+            }, 0); 
+        });
     });
-
-
 </script>
-

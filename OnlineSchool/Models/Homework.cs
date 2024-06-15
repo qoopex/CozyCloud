@@ -5,12 +5,12 @@ namespace OnlineSchool.Models
     public class Homework
     {
         [Key]
-        public int HomeworkId { get; set; }
+        public int Id { get; set; }
         [Required(ErrorMessage = "Обязательное поле")]
         [MaxLength(50)]
         public string HomeworkName { get; set; }
         [MaxLength(50)]
-        public string Description { get; set; }
+        public string HomeworkDescription { get; set; }
         [Required(ErrorMessage = "Обязательное поле")]
         public DateTime DueDate { get; set; }
         [Required(ErrorMessage = "Обязательное поле")]

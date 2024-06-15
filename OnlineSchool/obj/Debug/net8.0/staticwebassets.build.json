@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D4ZLsjcbZYh0A53gmsraZJ+sAxL1QI4dVwHg90kOQoA=",
+  "Hash": "ujlrMT3IFs5zKzgWxxmtDkytNPRighO/ym0QtjBqrnQ=",
   "Source": "OnlineSchool",
   "BasePath": "_content/OnlineSchool",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OnlineSchool\\wwwroot",
       "Source": "OnlineSchool",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineSchool.styles.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineSchool.styles.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "OnlineSchool.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineSchool.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineSchool.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineSchool.bundle.scp.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineSchool.bundle.scp.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "OnlineSchool.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineSchool.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineSchool.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\css\\site.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\favicon.ico",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,86 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_img_good.jpg",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\CozyCloud_MainFinal.jpg",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
-      "BasePath": "_content/OnlineSchool",
-      "RelativePath": "images/CozyCloud_img_good.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\CozyCloud_img_good.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_img2.jpeg",
-      "SourceId": "OnlineSchool",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
-      "BasePath": "_content/OnlineSchool",
-      "RelativePath": "images/CozyCloud_img2.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\CozyCloud_img2.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_img3.jpeg",
-      "SourceId": "OnlineSchool",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
-      "BasePath": "_content/OnlineSchool",
-      "RelativePath": "images/CozyCloud_img3.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\CozyCloud_img3.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_logo1_smallified.png",
-      "SourceId": "OnlineSchool",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
-      "BasePath": "_content/OnlineSchool",
-      "RelativePath": "images/CozyCloud_logo1_smallified.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\CozyCloud_logo1_smallified.png"
-    },
-    {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\CozyCloud_MainFinal.jpg",
-      "SourceId": "OnlineSchool",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "images/CozyCloud_MainFinal.jpg",
       "AssetKind": "All",
@@ -188,48 +112,10 @@
       "OriginalItemSpec": "wwwroot\\images\\CozyCloud_MainFinal.jpg"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\replaced.png",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\replaced3.png",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
-      "BasePath": "_content/OnlineSchool",
-      "RelativePath": "images/replaced.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\replaced.png"
-    },
-    {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\replaced2.png",
-      "SourceId": "OnlineSchool",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
-      "BasePath": "_content/OnlineSchool",
-      "RelativePath": "images/replaced2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\replaced2.png"
-    },
-    {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\images\\replaced3.png",
-      "SourceId": "OnlineSchool",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "images/replaced3.png",
       "AssetKind": "All",
@@ -245,10 +131,200 @@
       "OriginalItemSpec": "wwwroot\\images\\replaced3.png"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher1.jpg",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher1_.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher1_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher1_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher2.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher3.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher3_.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher3_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher3_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher4.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher4_.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher4_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher4_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher5.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher6.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\images\\teachers\\teacher6_.jpg",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
+      "BasePath": "_content/OnlineSchool",
+      "RelativePath": "images/teachers/teacher6_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\teachers\\teacher6_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\js\\site.js",
+      "SourceId": "OnlineSchool",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -264,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -283,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -302,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -321,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -340,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -359,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -435,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -454,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -473,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -492,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -511,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -587,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -606,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -625,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -644,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -663,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -739,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -758,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -777,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -796,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -815,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -834,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -853,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -872,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -891,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -910,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -929,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -948,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -967,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -986,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1005,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1024,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1043,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1062,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1081,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1100,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1119,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1138,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1157,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1176,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1195,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1214,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1233,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1252,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1271,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1290,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1309,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1328,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1347,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\231d5db8-dc0d-4513-ab7e-518fd8364fc0_18_10101.xls",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\231d5db8-dc0d-4513-ab7e-518fd8364fc0_18_10101.xls",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/231d5db8-dc0d-4513-ab7e-518fd8364fc0_18_10101.xls",
       "AssetKind": "All",
@@ -1366,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\231d5db8-dc0d-4513-ab7e-518fd8364fc0_18_10101.xls"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\53408522-23b3-48a5-9f85-17c4b1d14326_22_10103.xls",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\53408522-23b3-48a5-9f85-17c4b1d14326_22_10103.xls",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/53408522-23b3-48a5-9f85-17c4b1d14326_22_10103.xls",
       "AssetKind": "All",
@@ -1385,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\53408522-23b3-48a5-9f85-17c4b1d14326_22_10103.xls"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\7901d486-a92d-4542-a58e-97f568475c6a_18_10101.xls",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\7901d486-a92d-4542-a58e-97f568475c6a_18_10101.xls",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/7901d486-a92d-4542-a58e-97f568475c6a_18_10101.xls",
       "AssetKind": "All",
@@ -1404,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\7901d486-a92d-4542-a58e-97f568475c6a_18_10101.xls"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\952dd3c8-9494-4f50-acb8-c3a3183a1fcd_22_10103.xls",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\952dd3c8-9494-4f50-acb8-c3a3183a1fcd_22_10103.xls",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/952dd3c8-9494-4f50-acb8-c3a3183a1fcd_22_10103.xls",
       "AssetKind": "All",
@@ -1423,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\952dd3c8-9494-4f50-acb8-c3a3183a1fcd_22_10103.xls"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\9a403b1b-cddf-4704-9cb6-9269431c8224_10_10092.doc",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\9a403b1b-cddf-4704-9cb6-9269431c8224_10_10092.doc",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/9a403b1b-cddf-4704-9cb6-9269431c8224_10_10092.doc",
       "AssetKind": "All",
@@ -1442,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\9a403b1b-cddf-4704-9cb6-9269431c8224_10_10092.doc"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\9f245fef-4803-4440-8b66-a91c977dfe67_18_10101.xls",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\9f245fef-4803-4440-8b66-a91c977dfe67_18_10101.xls",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/9f245fef-4803-4440-8b66-a91c977dfe67_18_10101.xls",
       "AssetKind": "All",
@@ -1461,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\9f245fef-4803-4440-8b66-a91c977dfe67_18_10101.xls"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\a9819ffe-8c13-459e-a97a-83ddd4819e79_18_10101.xls",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\a9819ffe-8c13-459e-a97a-83ddd4819e79_18_10101.xls",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/a9819ffe-8c13-459e-a97a-83ddd4819e79_18_10101.xls",
       "AssetKind": "All",
@@ -1480,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\a9819ffe-8c13-459e-a97a-83ddd4819e79_18_10101.xls"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\bed86a07-c1fe-42b6-a347-8360a0d669b1_10_10092.doc",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\bed86a07-c1fe-42b6-a347-8360a0d669b1_10_10092.doc",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/bed86a07-c1fe-42b6-a347-8360a0d669b1_10_10092.doc",
       "AssetKind": "All",
@@ -1499,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\bed86a07-c1fe-42b6-a347-8360a0d669b1_10_10092.doc"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\c8d13b63-6756-4158-a8d0-e68af03260bd_18_10101.xls",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\c8d13b63-6756-4158-a8d0-e68af03260bd_18_10101.xls",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/c8d13b63-6756-4158-a8d0-e68af03260bd_18_10101.xls",
       "AssetKind": "All",
@@ -1518,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\c8d13b63-6756-4158-a8d0-e68af03260bd_18_10101.xls"
     },
     {
-      "Identity": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\uploads\\edf02291-b91e-40dc-8ed7-60a6f4d8900d_18_10101.xls",
+      "Identity": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\uploads\\edf02291-b91e-40dc-8ed7-60a6f4d8900d_18_10101.xls",
       "SourceId": "OnlineSchool",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Рабочий стол\\OnlineSchool\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Britov\\OneDrive\\Документы\\GitHub\\CozyCloud\\OnlineSchool\\wwwroot\\",
       "BasePath": "_content/OnlineSchool",
       "RelativePath": "uploads/edf02291-b91e-40dc-8ed7-60a6f4d8900d_18_10101.xls",
       "AssetKind": "All",

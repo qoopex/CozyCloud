@@ -6,7 +6,7 @@ namespace OnlineSchool.Models
     public class HomeworkSubmission
     {
         [Key]
-        public int SubmissionId { get; set; }
+        public int Id { get; set; }
         [ForeignKey("HomeworkId")]
         public int HomeworkId { get; set; }//идентификатор домашнего задания
         public Homework Homework { get; set; }
@@ -15,7 +15,7 @@ namespace OnlineSchool.Models
         public int UserId { get; set; }//идентификатор ученика
         public User User { get; set; }
         [Required(ErrorMessage = "Обязательное поле")]
-        public string File { get; set; }//название файла
+        public string FilePath { get; set; }//название файла
         public DateTime SubmissionDate { get; set; }//дедлайн домашнего задания 
         [Required(ErrorMessage = "Обязательное поле")]
         public string CuratorComment { get; set; }//комменатрий куратора по проверенной работе
